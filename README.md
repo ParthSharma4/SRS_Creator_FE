@@ -22,3 +22,13 @@ project stucture -
    10.b. index.jsx
    10.c. new.jsx
    10.d. project/[id].jsx
+
+
+    Changes needed to make -
+    .env.local → add  Firebase keys, backend API URL, Socket.IO URL.
+
+     utils/api.js → confirm backend endpoints match /projects and /projects/:id.
+
+     components/ProjectEditor.jsx → for live transcription if integrate audio.
+
+      pages/index.jsx → name, logo, colors.
