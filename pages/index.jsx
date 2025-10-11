@@ -1,4 +1,5 @@
-// pages/index.jsx
+# Create a new index.jsx that uses our hook system
+cat > pages/index.jsx << 'EOF'
 import { useAuth } from '../hooks/useAuth';
 import Navbar from '../components/Navbar';
 import ProjectList from '../components/ProjectList';
@@ -54,3 +55,4 @@ export default function Home() {
     </div>
   );
 }
+EOF
